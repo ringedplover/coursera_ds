@@ -39,6 +39,6 @@ app.layout = html.Div(children=[html.H1('Airline Dashboard',style={'textAlign': 
 
 # Run the application                   
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(port=8051)  # Specify a different port here
 
 
